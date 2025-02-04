@@ -22,10 +22,12 @@ const tokens = defineTokens({
     gradients: {},
     sizes: {
         // width, height, minWidth, maxWidth, minHeight, maxHeight
+        18: { value: "4.5rem" },
         full: { value: "100%" },
     },
     spacing: {
         // margin, padding, gap, {top,right,bottom,left}
+        18: { value: "4.5rem" },
         full: { value: "100%" },
     },
     fonts: {
@@ -138,6 +140,12 @@ const customConfig = defineConfig(
             "html, body": {
                 margin: 0,
                 padding: 0,
+                fontSize: { base: "14px", md: "16px" }, // ~767px, 768px~
+            },
+            main: {
+                mt: 18,
+                py: 10,
+                minH: "80dvh",
             },
         },
         theme: { tokens, semanticTokens },
