@@ -31,14 +31,16 @@ export default function StyleGuidePage() {
             </Box>
             <Box>
                 <Flex align="center" direction="column" gap={4}>
-                    <Button variant="primarySolid">primarySolid - lg</Button>
+                    <Button variant="primarySolid" size="lg">
+                        primarySolid - lg
+                    </Button>
                     <Button variant="primarySolid" size="md">
                         primarySolid - md
                     </Button>
                     <Button variant="primarySolid" size="sm">
                         primarySolid - sm
                     </Button>
-                    <Button variant="primaryOutline">
+                    <Button variant="primaryOutline" size="lg">
                         primaryOutline - lg
                     </Button>
                     <Button variant="primaryOutline" size="md">
@@ -47,7 +49,9 @@ export default function StyleGuidePage() {
                     <Button variant="primaryOutline" size="sm">
                         primaryOutline - sm
                     </Button>
-                    <Button variant="graySolid">graySolid - lg</Button>
+                    <Button variant="graySolid" size="lg">
+                        graySolid - lg
+                    </Button>
                     <Button variant="graySolid" size="md">
                         graySolid - md
                     </Button>

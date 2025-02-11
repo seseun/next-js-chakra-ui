@@ -5,20 +5,20 @@ import {
     mergeConfigs,
 } from "@chakra-ui/react";
 
-import { colors, gradients, semanticColor } from "./theme/colors";
-import { components } from "./theme/components";
-import { fonts, semanticBorder } from "./theme/etc";
 import { layerStyles } from "./theme/layerStyles";
 import { recipes } from "./theme/recipes";
-import { sizes } from "./theme/sizes";
+import { slotRecipes } from "./theme/slotRecipes";
 import { textStyles } from "./theme/textStyles";
+import { colors, gradients, semanticColor } from "./theme/tokens/colors";
+import { fonts, semanticBorder, shadows } from "./theme/tokens/etc";
+import { sizes } from "./theme/tokens/sizes";
 
 const themeProps = {
     tokens: {
         colors: colors,
-        components: components,
         fonts: fonts,
         gradients: gradients,
+        shadows: shadows,
         sizes: sizes,
         spacing: sizes,
     },
@@ -27,6 +27,7 @@ const themeProps = {
         borders: semanticBorder,
     },
     recipes: recipes,
+    slotRecipes: slotRecipes,
     textStyles: textStyles,
     layerStyles: layerStyles,
 };

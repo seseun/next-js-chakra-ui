@@ -15,8 +15,10 @@ export default function CustomLink({
     return (
         <ChakraLink
             asChild
+            outline={0}
             textDecoration="none"
             transition="var(--ck-durations-moderate)"
+            color="inherit"
             {...props}
         >
             <NextLink href={href}>{children}</NextLink>

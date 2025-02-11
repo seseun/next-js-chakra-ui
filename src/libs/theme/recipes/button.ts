@@ -1,6 +1,6 @@
-import { defineRecipe } from "@chakra-ui/react";
+import { defineRecipe, defineSlotRecipe } from "@chakra-ui/react";
 
-const buttonRecipe = defineRecipe({
+export const buttonRecipe = defineRecipe({
     base: {
         display: "inline-flex",
         alignItems: "center",
@@ -103,6 +103,10 @@ const buttonRecipe = defineRecipe({
                     },
                 },
             },
+            text: {
+                width: "auto",
+                height: "auto",
+            },
         },
         size: {
             lg: {
@@ -141,14 +145,11 @@ const buttonRecipe = defineRecipe({
                 fontSize: "12px",
                 fontWeight: 400,
             },
+            auto: {},
         },
     },
     defaultVariants: {
         variant: "primarySolid",
-        size: "lg",
+        size: "auto",
     },
 });
-
-export const recipes = {
-    button: buttonRecipe,
-};

@@ -3,7 +3,7 @@ export const fonts = {
     heading: { value: "'Pretendard Variable', sans-serif" },
 };
 
-export const shadow = {
+export const shadows = {
     focus1: { value: "0px 0px 8px 2px rgba(185, 235, 64, 0.25)" },
     focus2: { value: "0px 0px 16px 2px rgba(185, 235, 64, 0.25)" },
     modal: { value: "0px 0px 16px 0px rgba(0, 0, 0, 0.4)" },
