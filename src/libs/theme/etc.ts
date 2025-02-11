@@ -11,7 +11,7 @@ export const shadow = {
 };
 
 export const semanticBorder = {
-    // subtle: { value: "1px solid {colors.border}" },
+    default: { value: "1px solid {colors.gray.800}" },
     // emphasized: {
     //     value: {
     //         base: "1px solid {colors.gray.300}",

@@ -44,8 +44,11 @@ const configProps = {
             padding: 0,
             fontSize: { base: "14px", md: "16px" }, // ~767px, 768px~
         },
+        body: {
+            bgColor: "gray.950",
+        },
         main: {
-            mt: 18,
+            mt: "70px",
             py: 10,
             minH: "80dvh",
         },

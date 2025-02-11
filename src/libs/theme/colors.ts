@@ -109,7 +109,6 @@ export const semanticColor = {
         header: { value: "rgba(9, 9, 9, 0.5)" },
         70: { value: "rgba(1, 1, 1, 0.7)" },
     },
-
     kakao: {
         primary: { value: "#F9E000" },
         dark: { value: "#371D1E" },
